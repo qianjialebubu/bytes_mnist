@@ -10,7 +10,6 @@ import pandas as pd
 # 计算Pj(Wi)，在此基础上计算P(X/Wi)
 # 返回一个double类型数据，为在某一类数字（0-9）的特征空间中出现X的概率
 # 某类数字的特征空间中出现该样本X的概率
-#
 
 f_sum = open('sum.csv','r')
 f_txt = open('TXT.csv','r')
