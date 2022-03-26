@@ -104,7 +104,7 @@ for i in range(10):
         R[i].append(1)
 for fl in os.listdir(root_dir):  # 循环处理所有test图片
     j=j+1
-    # 通过调节n可以调节测试间隔
+    # 通过调节n可以调节测试间隔，测试集共10000张图片，完全测试需要很长时间
     n = 100
     if j%n!=0:
         continue
